@@ -1,0 +1,19 @@
+# Credentials
+config.py
+
+# Python environment
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and Local Data
+*.log
+local_seen_iocs.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
