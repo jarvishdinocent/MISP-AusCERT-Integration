@@ -46,3 +46,18 @@ Manual extraction of IOCs from advisory PDFs or web pages is slow and prone to e
 ```bash
 git clone [https://github.com/your-username/MISP-AusCERT-Integration.git](https://github.com/your-username/MISP-AusCERT-Integration.git)
 cd MISP-AusCERT-Integration
+
+### 2. Prepare Environment
+It is recommended to use a virtual environment to keep your global Python installation clean.
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate it
+# On Linux/macOS:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
