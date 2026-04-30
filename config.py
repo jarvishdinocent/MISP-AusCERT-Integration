@@ -1,18 +1,11 @@
-cp config.py.example config.py
-    ```
-2.  **Edit `config.py`** with your MISP instance details:
-    
-```python
-    MISP_URL = "[https://your-misp-instance.com](https://your-misp-instance.com)"
-    MISP_KEY = "YOUR_API_KEY_HERE"
-    VERIFY_SSL = False  # Set to True if using valid CA certificates
-    ```
+# ==========================================
+# MISP CONFIGURATION TEMPLATE
+# ==========================================
+# Instructions:
+# 1. Copy this file to 'config.py'
+# 2. Update the values below with your MISP instance details
+# 3. 'config.py' is ignored by git to keep your keys safe
 
----
-
-## 🚀 Usage
-
-### Manual Execution
-To trigger a manual sync and pull the latest advisories:
-```bash
-python3 ingestor.py
+MISP_URL = "https://your-misp-instance-ip-or-domain"
+MISP_KEY = "YOUR_API_KEY_HERE"
+VERIFY_SSL = False  # Set to True if you have a valid SSL certificate
